@@ -1,0 +1,47 @@
+#my-canvas{
+    width: 100%;
+    border: 3px solid #000000;
+}
+
+#img-data-div{
+    width: 100%;
+    max-width: 900px;
+    height: 200px;
+}
+
+.instrumente a img{
+    max-width:100%;
+    height:auto;
+}
+
+.wrapp {
+    max-width: 900px;
+    margin: auto;
+    font-family: "Arial";
+}
+
+.instrumente{
+    width: 100%;
+    background-color: #4d4b4b;
+    overflow: auto;
+}
+
+.instrumente a {
+    float: left;
+    width: 11%;
+    text-align: center;
+    padding: 6px 5px;
+    transition: all 0.5s ease;
+    color: rgb(255, 255, 255);
+}
+
+/* Modifica culoarea in timpul hover-ului */
+.instrumente a:hover {
+    background-color: rgb(0, 0, 0);
+  }
+
+/* Modifica culoarea pe icon-ul selectat */
+.selected {
+    background-color: #000; 
+}
+
